@@ -1,6 +1,6 @@
 import "dart:io";
 
-void main(List<String> args) async {
+void main(List<String> args) {
     final result = impl();
     print(result);
     print(result == 72240);

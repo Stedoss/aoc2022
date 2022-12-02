@@ -1,6 +1,6 @@
 import "dart:io";
 
-void main() async {
+void main() {
     final result = impl();
     print(result);
     print(result == 210957);
@@ -30,8 +30,6 @@ int impl() {
     }
 
     elfCalories.sort(((a, b) => b - a));
-
-    elfCalories.forEach((element) {print(element);});
 
     final topThreeCalories = elfCalories.take(3).reduce((a, b) => a + b);
 
