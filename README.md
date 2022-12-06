@@ -23,3 +23,5 @@ Most are developed on Windows natively, unless the compiler/runtime of the langu
 2. Pascal
 3. C
 4. C++
+5. Nim
+6. Zig
