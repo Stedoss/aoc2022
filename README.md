@@ -25,3 +25,5 @@ Most are developed on Windows natively, unless the compiler/runtime of the langu
 4. C++
 5. Nim
 6. Zig
+7. PowerShell
+8. PHP
